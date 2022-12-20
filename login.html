@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        font-family: var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+    }
+    body{
+        background-color: lightblue;
+    }
+    form {
+        float: left;
+        width: 300px;
+        height: 420px;
+        border-radius: 15px;
+        margin-left: 40%;
+        margin-top: 10%;
+        background-color: rgb(254, 254, 254);
+    }
+    #title{
+        font-size: 30px;
+        margin-left: 45px;
+        margin-top: 32px;
+        margin-bottom: 10px;
+    }
+    .box{
+        width: 240px;
+        height: 40px;
+        margin-left: 10%;
+        margin-bottom: 10px;
+        border: 1px solid silver;
+        border-radius: 20px;
+    }
+    .box img{
+        float: left;
+        margin: 8px 10px;
+    }
+
+    .box input{
+        border: none;
+        height: 100%;
+        float: left;
+        outline-style: none;
+    }
+    
+    #submit{
+        width: 200px;
+        height: 40px;
+        border-radius: 11px;
+        margin: 10px 50px;
+        background-color: #2f6df4;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    #userimg{
+        width: 75px;
+        height: 75px;
+        margin: 40px 112px 30px;
+        border-radius: 33.5px;
+        overflow: hidden;
+    }
+    #userimg img{
+        margin: 5px 8px;
+    }
+    #register{
+        float: left;
+        margin: 30px 50px;
+    }
+    #register p{
+        float: left;
+        display: inline;
+        font-size: 13px;
+        color: gray;
+        font-style: italic;
+    }
+    #register a{
+        float: left;
+        font-size: 13px;
+        font-style: italic;
+        margin-left: 2px;
+    }
+    #return_index{
+        float: left;
+        display: block;
+        color: black;
+        text-decoration: none;
+        background-color: rgba(128, 128, 128,0.2);
+        font-size: 14px;
+        border-radius: 25px;
+        line-height: 30px;
+        margin: 10px 10px;
+    }
+    #return_index img{
+        width: 30px;
+        height: 30px;
+        float: left;
+        margin: 0px 10px;;
+    }
+</style>
+<body>
+    <form action="" id="login">
+        <a id="return_index" href="./index.html">
+            <!-- <div>Back</div> -->
+            <img src="./images/icon/zuojiantou-7.png" alt="">
+        </a>
+        <div id="userimg">
+            <img src="./images/icon/yonghuming.png" alt="" width="60px" height="60px">
+        </div>
+        <h4 id="title">Welcome back</h4>
+        <div class="username box">
+            <img src="./images/icon/jurassic_user.png" alt="" width="22px" height="22px">
+            <input type="text" placeholder="账户">
+        </div>
+        <div class="password box">
+            <img src="./images/icon/mima.png" alt="" width="22px" height="22px">
+            <input type="password" placeholder="密码">
+        </div>
+        <input id="submit" type="submit" value="LOGIN">
+        <span id="register">
+            <p>Don't have acount,please </p>
+            <a href="./register.html"> register</a>
+        </span>
+    </form> 
+</body>
+</html>

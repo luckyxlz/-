@@ -1,0 +1,165 @@
+footer>div{
+    height: 100%; 
+    float: left;
+}
+.music_info{
+    width: 25%;
+    float: left;
+}
+.music_info img{
+    margin: 17.5px;
+    float: left;
+}
+.music_info .play_music_info{
+    float:left;
+    margin-top: 30px;
+    /* margin-left: 17.5px; */
+}
+.play_music_info .music_name{
+    display: inline-block;
+    font-size: 15px;
+    color: #FFF;
+}
+.play_music_info .author{
+    display: inline-block;
+    font-size: 10px;
+    color: #797979;
+}
+.music_info .love{
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+/* .music_info .love img{
+    float: left;
+} */
+
+/* 设置switch music部分的样式 */
+.switch_music{
+    width: 50%;
+}
+/* 设置播放控件顶部样式 */
+.up{
+    float: left;
+    width: 100%;
+    height: 75%;
+    clear: right;
+}
+.up img{
+    float: left;
+}
+
+/* 空间上部空间的外部样式 */
+.up .up_out{
+    float: left;
+    width: 30%;
+    margin: 20px 35%;
+    cursor: pointer;
+}
+
+/* 内部控件样式 */
+.up_out div{
+    float: left;
+    margin: 0% 5%;
+}
+
+/* 播放按钮样式 */
+#play{
+    background-color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: -4px;
+}
+#play img{
+    margin-top: 6px;
+    margin-left: 7px;
+}
+
+/* 设置播放控件底部样式 */
+.floor {
+    float: left;
+    width: 100%;
+    height: 25%;
+}
+
+/* 进度条样式 */
+.play_bar{
+    float: left;
+    margin: 0px 5px;
+    width: 60%;
+    height: 4px;
+}
+
+.start{
+    margin-left: 15%;
+}
+
+/* 音乐歌曲时间样式设置 */
+.floor .start,.end{
+    float: left;
+    margin-top: -3.5px;
+    font-size: 0.6875rem;
+    color: rgb(139, 139, 139);
+}
+
+
+/* 音乐控制样式设置 */
+.control_music{
+    width: 25%;
+}
+
+.control_music .control_container{
+    float: right;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+.control_music .sound_range{
+    float: right;
+    height: 4px;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.control_music img{
+    float: right;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+/* 音乐列表样式 */
+#list{
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    border-radius: 20px;
+    width: 400px;
+    height: 600px;
+    background-color: rgba(127,127,127,0.3);
+    visibility: hidden;
+}
+
+#list ul,li{
+    margin: 8px 0px;
+}
+.cow div{
+    float: left;
+    color: #FFF;
+}
+.music_num {
+    width: fit-content;
+    margin-left: 25px;
+}
+.music_title{
+    width: 80px;
+    margin-left: 30px;
+
+}
+.music_author{
+    width: 80px;
+    margin-left: 40px;
+
+}
+.music_time{
+    width: 80px;
+    margin-left: 45px;
+}

@@ -1,0 +1,107 @@
+.love_song{
+    height: 1000px;
+}
+
+.banner{
+    width: 100%;
+    height: 300px;
+    /* background-color: #423284; */
+    background: linear-gradient(#423284, #000);
+    float: left;
+}
+
+#love_shark{
+    margin: 3% 3%;
+    width: 240px;
+    height: 240px;
+    background: rgb(64, 33, 174);
+    float: left;
+}
+#love_shark img{
+    float: left;
+    width: 70px;
+    height: 60px;
+    margin: 37% 35%;
+}
+
+
+#title{
+    color: #FFF;
+    font-size: 65px;
+    float: left;
+    margin: 10% 0%;
+}
+header{
+    background-color: #423284;
+}
+
+
+#data>li{
+    height: 56px;
+    width: 90%;
+    margin: 0 5%;
+}
+#table_head ul{
+    width: 100%;
+}
+
+ul #table_head{
+    margin-top: 1%;
+    height: 25px;
+}
+
+#table_head li{
+    height: 50px;
+    font-size: 15px;
+    color: #B3B3B3;
+    float: left;
+}
+
+/* 表头样式 */
+.num{
+    width: 20px;
+}
+.little_title{
+    width: 30%;
+}
+.album{
+    width: 25%;
+}
+.add_time{
+    width: 30%;
+}
+.song_time{
+    width: 10%;
+}
+
+/* 表格数据样式 */
+
+.data_item div{
+    float: left;
+    color: #B3B3B3;
+    line-height: 56px;
+}
+
+.little_title h3,p,img{
+    float: left;
+}
+
+.little_title h3{
+    width:70%;
+    margin: 4% 4%;
+    font-size: 14px;
+    color: #FFF;
+    font-weight: normal;
+    line-height: 14px;
+}
+
+.little_title img{
+    margin: 3% 1%;
+}
+
+.little_title p{
+    width:70%;
+    margin: 0% 4%;
+    font-size: 13px;
+    line-height: 13px;
+}

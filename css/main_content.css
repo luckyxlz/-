@@ -1,0 +1,46 @@
+.index .kind,ul,li{
+    float: left;
+}
+.index .CD{
+    width: 230px; 
+    height: 300px; 
+    background: #000; 
+    float: left; 
+    margin: 0px 20px 0px 0px;
+    border-radius: 15px;
+}
+.CD img{
+    float: left;
+    border-radius: 4px; 
+    margin-left: 8%; 
+    margin-top: 6%;
+}
+.CD .CD_info{
+    float: left; 
+    margin-left: 8%; 
+    margin-top: 7%; 
+    width: 84%; 
+    height: 20%;
+}
+.CD .CD_info .CD_name{
+    font-size: 20px;
+    color: #FFF;
+}
+.CD .CD_info .CD_author{
+    margin-top: 4%;
+    color: #B3B3B3;
+    font-size: 12px;
+
+}
+
+.index ul{
+    margin: 0px 0px 0px 30px; 
+}
+.index .kind{
+    margin-bottom: 40px;
+}
+.index .kind_title{
+    color: #FFF;
+    font-size: 24px;
+    margin: 25px 35px;
+}
